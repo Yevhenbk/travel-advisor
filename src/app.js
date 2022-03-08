@@ -65,7 +65,7 @@ const App = () => {
       <>
         <CssBaseline />
         <Header onPlaceChanged={onPlaceChanged} onLoad={onLoad} />
-        <Grid container spacing={3} style={{ width: '100%' }}>
+        <Grid container spacing={3} style={{ width: '100%', margin: '0' }}>
           <Grid item xs={12} md={4}>
             <List
               isLoading={isLoading}
@@ -77,7 +77,7 @@ const App = () => {
               setRating={setRating}
             />
           </Grid>
-          <Grid item xs={12} md={8} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <Grid item xs={12} md={8} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '0' }}>
             <Map
               setChildClicked={setChildClicked}
               setBounds={setBounds}
