@@ -1,14 +1,21 @@
 import React, { useState, useEffect } from "react";
 import { CssBaseline, Grid } from '@material-ui/core';
+import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
 import { getPlacesData, getWeatherData } from "./api";
 
 import Header from "./components/header.jsx";
 import List from "./components/list.jsx";
 import Map from "./components/map.jsx";
-import Details from "./components/details.jsx";
 
 const App = () => {
+    const theme = createMuiTheme({
+      typography: {
+        fontFamily: [
+          'Rajdhani'
+        ].join(','),
+      },});
+
     const [type, setType] = useState('restaurants');
     const [rating, setRating] = useState('');
   
@@ -62,7 +69,8 @@ const App = () => {
     };
   
     return (
-      <>
+      <> 
+        <ThemeProvider theme={theme}>
         <CssBaseline />
         <Header onPlaceChanged={onPlaceChanged} onLoad={onLoad} />
         <Grid container spacing={3} style={{ width: '100%', margin: '0' }}>
@@ -88,7 +96,9 @@ const App = () => {
             />
           </Grid>
         </Grid>
+        </ThemeProvider>
       </>
+      
     );
   };
   

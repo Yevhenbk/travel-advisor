@@ -2,7 +2,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles(() => ({
   paper: {
-    padding: '10px', display: 'flex', flexDirection: 'column', justifyContent: 'center', width: '110px',
+    padding: '5px', display: 'flex', flexDirection: 'column', justifyContent: 'center', width: '110px',
   },
   mapContainer: {
     height: '85vh', width: '100%', display: 'contents',
@@ -14,6 +14,9 @@ export default makeStyles(() => ({
     cursor: 'pointer', borderRadius: "3px",
   },
   typography: {
-    margin: '.5rem 0 .25rem', textAlign: 'center'
+    margin: '.25rem 0', textAlign: 'center', fontSize: '14px', lineHeight: 'normal', fontWeight: '600'
   },
+  stars: {
+    display: 'flex', justifyContent: 'center'
+  }
 }));

@@ -43,7 +43,7 @@ const Map = ({ coords, places, setCoords, setBounds, setChildClicked, weatherDat
                     src={place.photo ? place.photo.images.large.url : 'https://www.foodserviceandhospitality.com/wp-content/uploads/2016/09/Restaurant-Placeholder-001.jpg'}
                   />
                   <Typography className={classes.typography} variant="subtitle2" gutterBottom> {place.name}</Typography>
-                  <Rating name="read-only" size="small" value={Number(place.rating)} readOnly />
+                  <Rating name="read-only" size="small" value={Number(place.rating)} className={classes.stars} readOnly />
                 </Paper>
               )}
           </div>
