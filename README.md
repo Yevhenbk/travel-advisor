@@ -1,6 +1,6 @@
 # TRAVELY
 
-### Travely is a web app that serves for providing top rated places you’re willing to find depending on your location.
+### Travely is a web app that serves for providing top rated places you’re willing to find depending on your location. With Geolocation, Google Maps API, Searching for places, Fetching restaurants, hotels and attractions based on location from specialized Rapid APIs, data filtering and much more.
 
 Try it out by yourself following this link `https://lamentable-record.surge.sh/`
 
