@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# TRAVELY
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Travely is a web app that serves for providing top rated places you’re willing to find depending on your location.
 
 ![This is an image](https://github.com/Yevhenbk/travel-advisor/blob/main/public/cut.gif)
 
