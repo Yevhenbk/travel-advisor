@@ -2,6 +2,8 @@
 
 Travely is a web app that serves for providing top rated places you’re willing to find depending on your location.
 
+### Try it out by yourself following this link https://lamentable-record.surge.sh/
+
 ![This is an image](https://github.com/Yevhenbk/travel-advisor/blob/main/public/cut.gif)
 
 ## Available Scripts
