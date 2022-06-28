@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![This is an image](https://github.com/Yevhenbk/travel-advisor/blob/main/public/cut.gif)
+
 ## Available Scripts
 
 In the project directory, you can run:
